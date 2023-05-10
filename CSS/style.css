@@ -1,29 +1,32 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-h1{
+
+h1 {
     font-size: 4rem;
     font-weight: 700;
 }
-h2{
+
+h2 {
     font-size: 1.625rem;
 }
-h3{
+
+h3 {
     font-size: 1rem;
 }
 
-section{
+section {
     background: #000000;
     border-bottom: 8px solid #222;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-section div.contenido{
+section div.contenido {
     width: 1100px;
     margin: auto;
     display: flex;
@@ -31,24 +34,24 @@ section div.contenido{
     align-items: center;
 }
 
-section div.contenido div{
-    
+section div.contenido div {}
+
+.restaurar {
+    clear: both;
 }
 
-.restaurar{
-            clear: both;
-}
-
-html, body, .cover{
+html,
+body,
+.cover {
     height: 100%;
 }
 
-.cover{
+.cover {
     background: url(../NETFLIX_123658.jpg);
 
 }
 
-section.cabecera{
+section.cabecera {
     background: none;
     position: absolute;
     top: 0px;
@@ -57,30 +60,31 @@ section.cabecera{
     bottom: 0px;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
 }
-nav{
+
+nav {
     margin: 0 3.5rem;
     padding-top: 26px;
 }
 
-div.log{
+div.log {
     float: left;
 }
 
-div.login{
+div.login {
     float: right;
 }
 
-div.login:hover{
+div.login:hover {
     cursor: pointer;
 }
 
-div.login span{
+div.login span {
     padding: 7px 17px;
-    background: #e50914;
+    background: #e50909;
     border-radius: 4px;
 }
 
-.presentacion{
+.presentacion {
     text-align: center;
     height: 100%;
     display: flex;
@@ -89,7 +93,7 @@ div.login span{
 
 }
 
-.presentacion input{
+.presentacion input {
     height: 70px;
     width: 500px;
     margin-top: 8px;
@@ -100,7 +104,7 @@ div.login span{
     color: #1c1c1c;
 }
 
-.presentacion span{
+.presentacion span {
     background: #e50914;
     padding: 22px;
     padding-bottom: 23px;
@@ -109,25 +113,29 @@ div.login span{
     border: solid #d30f18;
 }
 
-.presentacion span:hover, .contpreguntas span:hover{
+.presentacion span:hover,
+.contpreguntas span:hover {
     cursor: pointer;
     background: red;
 }
 
-.izquierda{
+.izquierda {
     float: left;
 }
-.derecha{
+
+.derecha {
     float: right;
 }
-.flotantetexto{
+
+.flotantetexto {
     width: 59%;
 }
-.flotanteimagen{
+
+.flotanteimagen {
     width: 39%;
 }
 
-.contenido img{
+.contenido img {
     width: 100%;
     height: auto;
     border: 0;
@@ -135,35 +143,36 @@ div.login span{
     z-index: 1;
 }
 
-.contenido h2{
+.contenido h2 {
     font-weight: bold;
     font-size: 50px;
 }
 
-.contenido p{
+.contenido p {
     font-size: 25px;
     font-weight: 200;
 }
 
-.tv video{
+.tv video {
     position: absolute;
     transform: translate(-373px, 68px);
     width: 313px;
     z-index: 2;
 }
 
-.disfruta video{
+.disfruta video {
     position: absolute;
     transform: translate(-350px, 45px);
     width: 268px;
 }
 
-.tarjetaInt, .portada{
+.tarjetaInt,
+.portada {
     display: flex;
     align-items: center;
 }
 
-.tarjetaInt{
+.tarjetaInt {
     width: 70%;
     margin: auto;
     border: solid 2px #434343;
@@ -173,28 +182,28 @@ div.login span{
     background: #000000
 }
 
-.tarjeta{
+.tarjeta {
     position: relative;
     transform: translate(-65px, -41px);
 }
 
-.preguntas h2{
+.preguntas h2 {
     font-weight: bold;
     font-size: 35px;
 }
 
-.contpreguntas{
+.contpreguntas {
     width: 650px;
     margin: auto;
     text-align: center;
 }
 
-.contpreguntas div{
+.contpreguntas div {
     text-align: left;
     font-size: 20px;
 }
 
-.preguntas{
+.preguntas {
     background: #303030;
     padding: 10px;
     margin-bottom: 5px;
@@ -202,32 +211,33 @@ div.login span{
     cursor: pointer;
 }
 
-.respuesta{
+.respuesta {
     background: #303030;
     margin-bottom: 5px;
     margin-top: 5px;
 }
 
-.pregunta p, .respuesta p{
+.pregunta p,
+.respuesta p {
     padding: 10px;
     padding-left: 20px;
 }
 
-.respuesta hr{
+.respuesta hr {
     border: 1px solid #262626;
 }
 
-.pregunta:hover .respuesta{
+.pregunta:hover .respuesta {
     max-height: 1000px;
 }
 
-.respuesta{
+.respuesta {
     max-height: 0px;
     overflow: hidden;
     transition: all 1s;
 }
 
-.contpreguntas input{
+.contpreguntas input {
     height: 60px;
     width: 465px;
     margin-top: 20px;
@@ -238,30 +248,28 @@ div.login span{
     color: #1c1c1c;
 }
 
-.contpreguntas span{
+.contpreguntas span {
     background: #e50914;
-    padding: 16px;
     padding-bottom: 19px;
     font-weight: 500;
     margin-left: -5px;
-    border: solid #d30f18;
 }
 
-.contpreguntas h3{
+.contpreguntas h3 {
     font-size: 15px;
 }
 
-.piecontenido{
+.piecontenido {
     width: 1100px;
     margin: auto;
     display: flex;
     justify-content: center;
 }
 
-.pie p{
+.pie p {
     padding: 7px;
 }
 
-.pie .espacio{
+.pie .espacio {
     width: 100px;
 }
